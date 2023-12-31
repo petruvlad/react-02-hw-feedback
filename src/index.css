@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+
 
 body {
   margin: 0;
@@ -12,4 +12,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.feedback-button {
+  background-color: #4caf50; /* culoare de fundal verde */
+  color: #fff; /* culoare text alb */
+  padding: 10px 15px; /* margini interioare pentru a face butoanele ușor de vizualizat și de atins */
+  margin: 5px; /* margini exterioare între butoane */
+  cursor: pointer; /* să arate ca un pointer atunci când treceți peste el */
+  border: none; /* elimină bordura implicită a butonului */
+  border-radius: 5px; /* colțuri rotunjite */
+}
+
+.feedback-button:hover {
+  background-color: #45a049; /* culoare de fundal mai închisă atunci când mouse-ul trece peste buton */
 }
